@@ -1,0 +1,9 @@
+*
+!init.el
+!.gitignore
+!LICENSE
+!README.md
+
+!lisp/**
+!images/**
+!workgroups
