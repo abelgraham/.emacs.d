@@ -84,6 +84,7 @@
 (setq frame-resize-pixelwise t)
 
 (add-hook 'emacs-lisp-mode-hook 'rainbow-delimiters-mode)
+(add-hook 'common-lisp-mode-hook 'rainbow-delimiters-mode)
 
 (nyan-mode)
 (parrot-mode)
