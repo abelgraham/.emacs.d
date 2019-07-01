@@ -3,6 +3,7 @@
 (package-initialize)
 (require 'package)
 (require 'workgroups)
+(require 'gdscript-mode)
 (require 'zone)
 
 (workgroups-mode 1)
@@ -62,8 +63,8 @@
 ;; Command shortcuts
 (global-set-key (kbd "H-s") 'save-buffer)
 (global-set-key (kbd "H-z") 'zsh)
-(global-set-key (kbd "H-j") 'eshell)
-(global-set-key (kbd "H-h") 'eshell/clear)
+(global-set-key (kbd "H-h") 'eshell)
+(global-set-key (kbd "H-j") 'eshell/clear)
 (global-set-key (kbd "H-k") 'kill-buffer)
 (global-set-key (kbd "H-x") 'kill-region)
 (global-set-key (kbd "H-c") 'kill-ring-save)
