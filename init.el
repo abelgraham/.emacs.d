@@ -3,7 +3,7 @@
 (package-initialize)
 (require 'package)
 (require 'workgroups)
-(require 'gdscript-mode)
+(require 'godot-gdscript)
 (require 'zone)
 
 (workgroups-mode 1)
