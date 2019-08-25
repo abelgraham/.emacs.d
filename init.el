@@ -94,7 +94,7 @@
 (nyan-mode)
 (parrot-mode)
 
-(zone-when-idle 120)
+(zone-when-idle 300)
 
 (setq inferior-lisp-program "/bin/sbcl")
 (setq slime-contribs '(slime-fancy))
