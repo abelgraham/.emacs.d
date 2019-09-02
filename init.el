@@ -75,6 +75,7 @@
 (global-set-key (kbd "H-b") 'buffer-menu)
 (global-set-key (kbd "H-=") 'text-scale-increase)
 (global-set-key (kbd "H--") 'text-scale-decrease)
+(global-set-key (kbd "H-o") 'other-window)
 
 (dashboard-setup-startup-hook)
 (setq dashboard-banner-logo-title "I GNU you'd come back")
@@ -105,4 +106,3 @@
   (define-key eshell-mode-map (kbd "M-s") 'other-window-or-split))
 
 (add-hook 'eshell-mode-hook 'eshell-mode-hook-func)
-
