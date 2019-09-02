@@ -76,6 +76,7 @@
 (global-set-key (kbd "H-=") 'text-scale-increase)
 (global-set-key (kbd "H--") 'text-scale-decrease)
 (global-set-key (kbd "H-o") 'other-window)
+(global-set-key (kbd "H-p") 'previous-multiframe-window)
 
 (dashboard-setup-startup-hook)
 (setq dashboard-banner-logo-title "I GNU you'd come back")
