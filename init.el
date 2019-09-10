@@ -4,7 +4,6 @@
 (require 'package)
 (require 'workgroups)
 (require 'godot-gdscript)
-(require 'zone)
 
 (workgroups-mode 1)
 (wg-load "~/.emacs.d/workgroups")
@@ -97,8 +96,6 @@
 (add-to-list 'auto-mode-alist '("\\.epub\\'" . nov-mode))
 
 (parrot-mode)
-
-(zone-when-idle 300)
 
 (setq inferior-lisp-program "/bin/sbcl")
 (setq slime-contribs '(slime-fancy))
