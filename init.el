@@ -71,6 +71,7 @@
 (global-set-key (kbd "H-e") 'sudo-edit)
 (global-set-key (kbd "H-q") 'split-window-horizontally)
 (global-set-key (kbd "H-w") 'split-window-vertically)
+(global-set-key (kbd "H-a") 'balance-windows)
 (global-set-key (kbd "H-b") 'buffer-menu)
 (global-set-key (kbd "H-=") 'text-scale-increase)
 (global-set-key (kbd "H--") 'text-scale-decrease)
