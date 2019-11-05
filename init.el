@@ -117,3 +117,5 @@
 (setq nov-text-width t)
 ;; Auto-mode
 (add-to-list 'auto-mode-alist '("\\.j2\\'" . jinja2-mode))
+;; Set Python shell interpreter
+(setq python-shell-interpreter "/usr/bin/python")
