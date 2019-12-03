@@ -9,6 +9,8 @@
 (menu-bar-mode -1)
 (menu-bar-showhide-tool-bar-menu-customize-disable)
 (scroll-bar-mode -1)
+;; Setting this variable before evil loads
+(setq evil-toggle-key "C-x C-z") 
 ;; Package manager
 (let* ((no-ssl (and (memq system-type '(windows-nt ms-dos))
                     (not (gnutls-available-p))))
@@ -40,7 +42,7 @@
 (evil-mode 1)
 (setq evil-default-state 'emacs)
 (evil-escape-mode)
-(global-set-key (kbd "M-s") 'evil-escape)
+(global-set-key (kbd "C-z") 'evil-escape)
 ;; Theme and modeline
 (load-theme 'chocolate t)
 (doom-modeline-mode)
