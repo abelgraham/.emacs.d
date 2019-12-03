@@ -40,7 +40,7 @@
 (evil-mode 1)
 (setq evil-default-state 'emacs)
 (evil-escape-mode)
-(global-set-key (kbd "C-c") 'evil-escape)
+(global-set-key (kbd "M-s") 'evil-escape)
 ;; Theme and modeline
 (load-theme 'chocolate t)
 (doom-modeline-mode)
