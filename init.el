@@ -39,7 +39,7 @@
 (evil-escape-mode)
 (global-set-key (kbd "C-z") 'evil-escape)
 ;; Theme and modeline
-(load-theme 'base16-woodland t)
+(load-theme 'base16-onedark t)
 (doom-modeline-mode)
 ;; Enable transparency
 (set-frame-parameter (selected-frame) 'alpha '(95 . 95))
