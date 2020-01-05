@@ -1,4 +1,3 @@
-(package-initialize)
 (require 'package)
 
 (setq evil-toggle-key "C-x C-z")
