@@ -4,6 +4,6 @@
 !LICENSE
 !README.md
 
-!lisp/**
+!elisp/**
 !images/**
 !workgroups
