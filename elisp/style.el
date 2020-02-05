@@ -3,7 +3,7 @@
 (menu-bar-showhide-tool-bar-menu-customize-disable)
 (scroll-bar-mode -1)
 ;; Theme and modeline
-(load-theme 'base16-onedark t)
+(load-theme 'base16-nord t)
 (doom-modeline-mode)
 ;; Enable transparency
 (set-frame-parameter (selected-frame) 'alpha '(95 . 95))

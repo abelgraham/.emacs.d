@@ -25,3 +25,4 @@
 (global-set-key (kbd "H-o") 'other-window)
 (global-set-key (kbd "H-p") 'previous-multiframe-window)
 (global-set-key (kbd "H-f") 'maximize-window)
+(global-set-key (kbd "H-l") 'ispell)

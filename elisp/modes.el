@@ -16,11 +16,14 @@
 (add-hook 'org-mode-hook #'toggle-word-wrap)
 (add-hook 'nov-mode-hook 'visual-line-mode)
 (add-hook 'nov-mode-hook 'visual-fill-column-mode)
+(add-hook 'LaTeX-mode-hook #'latex-extra-mode)
 ;; File associations
 (add-to-list 'auto-mode-alist '("\\.epub\\'" . nov-mode))
 ;; SLIME
 (setq inferior-lisp-program "/bin/sbcl")
 (setq slime-contribs '(slime-fancy))
+;; Chicken Scheme
+(setq scheme-program-name "csi -:c")
 ;; Novel
 (setq nov-text-width t)
 ;; Auto-mode
