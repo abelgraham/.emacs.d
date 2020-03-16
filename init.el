@@ -17,7 +17,7 @@
  '(custom-safe-themes t)
  '(package-selected-packages
    (quote
-    (lua-mode latex-extra cider base16-theme go-mode weechat doom-modeline evil-escape evil jinja2-mode rust-mode markdown-mode slime all-the-icons parrot rainbow-delimiters emojify yaml-mode wc-mode python-mode htmlize org-plus-contrib dired-filter dired-icon dired-launch dashboard brief org)))
+    (pdf-tools lua-mode latex-extra cider base16-theme go-mode weechat doom-modeline evil-escape evil jinja2-mode rust-mode markdown-mode slime all-the-icons parrot rainbow-delimiters emojify yaml-mode wc-mode python-mode htmlize org-plus-contrib dired-filter dired-icon dired-launch dashboard brief org)))
  '(tool-bar-mode nil))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
@@ -31,4 +31,7 @@
 (load-library "style")
 (load-library "keys")
 (load-library "modes")
+
+(add-to-list 'load-path "~/.emacs.d/git/emacs-gdscript-mode/")
+(require 'gdscript-mode)
 

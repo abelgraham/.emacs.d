@@ -1,9 +1,10 @@
 *
 !init.el
 !.gitignore
+!.gitmodules
 !LICENSE
 !README.md
 
 !elisp/**
+!git/**
 !images/**
-!workgroups

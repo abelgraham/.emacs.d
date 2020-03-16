@@ -1,0 +1,3 @@
+[submodule "git/emacs-gdscript-mode"]
+	path = git/emacs-gdscript-mode
+	url = https://github.com/GDQuest/emacs-gdscript-mode.git
