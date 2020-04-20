@@ -17,7 +17,7 @@
  '(custom-safe-themes t)
  '(package-selected-packages
    (quote
-    (pdf-tools lua-mode latex-extra base16-theme go-mode doom-modeline evil-escape evil jinja2-mode markdown-mode all-the-icons parrot rainbow-delimiters emojify yaml-mode python-mode htmlize org-plus-contrib dired-filter dired-icon dired-launch dashboard brief org)))
+    (slime lua-mode pdf-tools latex-extra base16-theme go-mode doom-modeline evil-escape evil jinja2-mode markdown-mode all-the-icons parrot rainbow-delimiters emojify yaml-mode python-mode htmlize org-plus-contrib dired-filter dired-icon dired-launch dashboard brief org)))
  '(tool-bar-mode nil))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
